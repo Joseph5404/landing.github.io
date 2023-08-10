@@ -42,7 +42,7 @@
   }
      /* Reset default margin and padding for better layout */
      body, h2, form, ul, li {
-      margin: 0;
+      
       padding: 0;
   }
   
@@ -55,6 +55,8 @@
       justify-content: space-between;
       align-items: center;
       position: fixed;
+      width: 100%;
+      top: 0;
   }
   
   /* Style the logo */
@@ -90,6 +92,7 @@
       background-color: #f9f9f9;
       padding: 40px;
       text-align: center;
+      margin-top: 40px;
   }
   
   h2 {
